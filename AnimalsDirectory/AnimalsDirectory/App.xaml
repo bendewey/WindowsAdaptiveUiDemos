@@ -1,0 +1,25 @@
+﻿<Application
+    x:Class="AnimalsDirectory.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AnimalsDirectory"
+    RequestedTheme="Light">
+
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.ThemeDictionaries>
+                <ResourceDictionary x:Key="Default">
+                    <SolidColorBrush x:Key="ThemeBrush" Color="#FFe0bd85" />
+                    <SolidColorBrush x:Key="SystemControlHighlightListAccentLowBrush" Color="#33FFFFFF" />
+                    <SolidColorBrush x:Key="SystemControlHighlightListAccentMediumBrush" Color="#55FFFFFF" />
+                </ResourceDictionary>
+                <ResourceDictionary x:Key="Light">
+                    <SolidColorBrush x:Key="ThemeBrush" Color="#FFe0bd85" />
+                    <SolidColorBrush x:Key="SystemControlHighlightListAccentLowBrush" Color="#33FFFFFF" />
+                    <SolidColorBrush x:Key="SystemControlHighlightListAccentMediumBrush" Color="#55FFFFFF" />
+                </ResourceDictionary>
+            </ResourceDictionary.ThemeDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
